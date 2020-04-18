@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 270vh;
+    background:  #e3e9f0 ;
+}
+header{
+    position: relative;
+    height: 100vh;
+    margin-bottom: 50px;
+    background-image: url("images/mos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topdir{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #423940;
+}
+
+.topdir .brand_name{
+    margin-left: 200px;
+    padding: 25px 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.topdir ul{
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.topdir ul li{
+    padding: 10px;
+    display: inline-block;
+   
+    margin: 5px;
+}
+.topdir ul li a{
+    text-decoration: none;
+    padding: 2px 10px;
+    font-weight: 400;
+    color: whitesmoke;
+    font-size: large;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+.topdir ul li a:hover{
+    
+    background: white;
+    color: black;
+}
+ .details{
+     position: absolute;
+     top: 50%;
+     left: 10%;
+     border-left: 3px solid white;
+     padding-left: 25px;
+}
+.details h6{
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    
+}
+.details h1{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 800;
+    margin: 0 0 10px;
+    padding: 0;
+    line-height: 1.2;
+}
+.details h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.biodata{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-bottom: 100px;
+    
+}
+.biodata #data{
+    margin-left: 20px;
+    padding:20px;
+
+}
+.biodata #top{
+    font-size: 50px;
+    font-weight: 500;
+    padding: 10px;
+}
+.biodata #content{
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 32px;
+background: linear-gradient(145deg, #adadad, #cdcdcd);
+box-shadow:  22px 22px 44px #ababab, 
+             -22px -22px 44px #d5d5d5;
+}
+.biodata #interestdata{
+    height: 150px;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 32px;
+background: linear-gradient(145deg, #adadad, #cdcdcd);
+box-shadow:  22px 22px 44px #ababab, 
+             -22px -22px 44px #d5d5d5;
+}
+.biodata #space{
+    height: 150px;
+}
+.biodata #talk{
+    height: 100px;
+    width: 170px;
+    margin-left: 5px;
+    padding: 15px;
+    border-radius: 32px;
+background: linear-gradient(145deg, #adadad, #cdcdcd);
+box-shadow:  22px 22px 44px #ababab, 
+             -22px -22px 44px #d5d5d5;
+}
+#image{
+    width: 350px;
+    border-radius: 18px;
+background: url("images/mose.jpg");
+box-shadow:  -9px 9px 6px #ababab, 
+             9px -9px 6px #d5d5d5;
+             background-size: cover;
+             background-repeat: no-repeat;
+
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.work h3 a{
+    color: hsl(192, 56%, 56%);
+}
+.work h3 a:hover{
+    color: lawngreen;
+}
+.work #sec1{
+    display:block;
+}
+.work #sec1 #data a{ text-decoration: none;}
+.work #sec1 #sec1image{
+    width: 400px;
+    height: 400px;
+    border-radius: 18px;
+background: url("images/piggy.png");
+box-shadow:  -9px 9px 6px #ababab, 
+             9px -9px 6px #d5d5d5;
+             background-size: cover;
+             background-repeat: no-repeat;
+}
+.work #sec2{
+    display:block;
+    margin-left: 50px;
+}
+.work #sec2 #data a{ text-decoration: none;}
+.work #sec2 #sec2image{
+    width: 200px;
+    height: 400px;
+    
+    border-radius: 18px;
+background: url("images/screensecond.png");
+box-shadow:  -9px 9px 6px #ababab, 
+             9px -9px 6px #d5d5d5;
+             background-size: contain;
+             background-repeat: no-repeat;
+}
+.work #sec3{
+    display:block;
+    margin-left: 50px;
+}
+.work #sec3 #data a{ text-decoration: none; }
+.work #sec3 #sec3image{
+    width: 600px;
+    height: 400px;
+    
+    border-radius: 18px;
+background: url("images/cvit.png");
+box-shadow:  -9px 9px 6px #ababab, 
+             9px -9px 6px #d5d5d5;
+             background-size: cover;
+             background-repeat: no-repeat;
+}
+footer{
+    background: hsl(192, 56%, 56%);
+}
+footer .contactus{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+footer #first{
+text-align: center;
+}
+ #first h3{
+     font-size: 30px;
+     font-weight: 400;
+     color: hsl(192, 17%, 99%);
+ }
+ #first p{
+     font-size: 15px;
+     font-weight: 500;
+     color: hsl(192, 17%, 99%);
+
+ }
+footer .contactform{
+ text-align: center;
+ padding: 30px;
+}
+.contactform form input[type=text] , .contactform form input[type = email]{
+    display: inline-block;
+    background: none;
+    border: none;
+    padding: 10px;
+    color: hsla(192, 17%, 99%,0.5);
+}
+.contactform form input[type = submit] , .contactform form textarea 
+{
+    margin-left: 50%;
+    transform: translate(-50%);
+    display: block;
+    
+    background: none;
+    border: none;
+    
+}
+.contactform form input[type = submit]{
+    border: 1px solid hsl(192, 17%, 99%);
+    text-align: center;
+    margin-top: 25px;
+    color: hsla(192, 17%, 99%,0.5);
+    padding: 10px;
+}
+
+.contactform form input[type = submit]:hover{
+ background: whitesmoke;
+ color: black;
+}
+
+
+.contactform form textarea{
+    border-bottom: 1px solid white;
+    resize: none;
+    padding: 10px;
+    color: hsl(192, 17%, 99%);
+    overflow: auto;
+}
+.contactform form input[type=text]{
+    border-bottom: 1px solid white;
+}
+.contactform form input[type = email]{
+    margin-left: 20px;
+    border-bottom: 1px solid white;
+}
+.social{
+    position: absolute;
+    top: 285%;
+    left: 90%;
+}
